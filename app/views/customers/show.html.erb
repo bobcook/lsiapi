@@ -1,0 +1,99 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @customer.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @customer.last_name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @customer.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @customer.city %>
+</p>
+
+<p>
+  <strong>Region code:</strong>
+  <%= @customer.region_code %>
+</p>
+
+<p>
+  <strong>Country code:</strong>
+  <%= @customer.country_code %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @customer.zip %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @customer.phone %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @customer.email %>
+</p>
+
+<p>
+  <strong>Access:</strong>
+  <%= @customer.access %>
+</p>
+
+<p>
+  <strong>Active:</strong>
+  <%= @customer.active %>
+</p>
+
+<p>
+  <strong>Boolean:</strong>
+  <%= @customer.boolean %>
+</p>
+
+<p>
+  <strong>Modified date:</strong>
+  <%= @customer.modified_date %>
+</p>
+
+<p>
+  <strong>Email template:</strong>
+  <%= @customer.email_template %>
+</p>
+
+<p>
+  <strong>Rate:</strong>
+  <%= @customer.rate %>
+</p>
+
+<p>
+  <strong>Entity:</strong>
+  <%= @customer.entity %>
+</p>
+
+<p>
+  <strong>Name file:</strong>
+  <%= @customer.name_file_id %>
+</p>
+
+<p>
+  <strong>Customer file:</strong>
+  <%= @customer.customer_file_id %>
+</p>
+
+<p>
+  <strong>Billing:</strong>
+  <%= @customer.billing_id %>
+</p>
+
+<%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>

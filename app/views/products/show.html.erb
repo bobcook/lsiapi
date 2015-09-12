@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name file:</strong>
+  <%= @product.name_file_id %>
+</p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @product.product_name %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @product.start_date %>
+</p>
+
+<p>
+  <strong>Entity:</strong>
+  <%= @product.entity %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
